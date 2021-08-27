@@ -16,9 +16,8 @@
 </head>
 <body>
     <header>
-        <div class="header_left"></div>
+       <a href="index.html" class="header_left"></a> 
             <ul>
-                <li><a href="./index.html">Home</a></li>
                 <li> <a href="./projects.html">Project</a></li>
                 <li>About Us</li>
                 <li>Contact Us</li>
@@ -27,12 +26,20 @@
     <aside class="contact">
         <div class="contact_icons">
             <div class="twitter"></div>
-            <div class="insta"></div>
+            <a class="insta" href="https://www.instagram.com/pratik_1354/" target="_blank" ></a>
             <div class="linked"></div>
-            <div class="facebook"></div>
-            <div class="gmail"></div>
+            <a class="facebook" href="https://www.facebook.com/PratikRaut123" target="_blank" ></a>
+            <a class="gmail" href="mailto:pratikra2001@gmail.com"></a>
         </div>
     </aside>
+    <div class="development_warning" id="development_warning">Please Note this site is still under devlopment some function may be missing or not work properly <br> <button onclick="closee()" id="btn1" style="width: 100px;padding: 1%;background-color: #00b6f1;color: white;">CLOSE</button> </div>
+    <script>
+        let a=document.getElementById("development_warning")
+        function closee(){
+            a.style.display="none";
+            // console.log("hiii");
+        }
+    </script>
     <section class="s1">
         <div class="s11">
         <h2>Hi, I'm Pratik.</h2>
@@ -46,37 +53,37 @@
     </section>
     <h1 style="text-align: center;">PROJECTS</h1>
     <section class="s2">
-        <div class="project_img"></div>
+        <a href="./projects/farmzon/" class="project_img"></a>
         <div class="project_title">
-            <h5>FARMZONE</h5>
+            <h5>FARMZON</h5>
             <h1>E-Commerce Website</h1>
             <hr>
             <p>Our website is used to decrease the effort,time and money of the farmers and help them to grow their buisness</p>
-            <a href="">To Website
+            <a href="./projects/farmzon/" class="redirect_button">To Website
                 <div class="arrow"></div>
             </a>
         </div>
     </section>
     <section class="s2" style="    grid-template-columns: 40% 60%;">
         <div class="project_title">
-            <h5>Farmzone</h5>
+            <h5>FARMZON</h5>
             <h1>E-Commerce Website</h1>
             <hr>
             <p>Our website is used to decrease the effort,time and money of the farmers and help them to grow their buisness</p>
-            <a href="">To Website
+            <a href="./projects/farmzon/" class="redirect_button">To Website
                 <div class="arrow"></div>
             </a>
         </div>
-        <div class="project_img"></div>
+        <a href="./projects/farmzon/" class="project_img"></a>
     </section>
     <section class="s2">
-        <div class="project_img"></div>
+        <a href="./projects/farmzon/" class="project_img"></a>
         <div class="project_title">
-            <h5>FARMZONE</h5>
+            <h5>FARMZON</h5>
             <h1>E-Commerce Website</h1>
             <hr>
             <p>Our website is used to decrease the effort,time and money of the farmers and help them to grow their buisness</p>
-            <a href="">To Website
+            <a href="./projects/farmzon/" class="redirect_button">To Website
                 <div class="arrow"></div>
             </a>
         </div>
