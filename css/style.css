@@ -1,6 +1,8 @@
 *{
-    font-family: 'Baloo Chettan 2', cursive;
+    /* font-family: 'Baloo Chettan 2', cursive; */
     /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Josefin Sans', sans-serif;
+
 }
 body{
     padding: 0;
@@ -270,4 +272,111 @@ header ul li a{
     background-image: url('../images/farmzon_screenshot.png');
     background-size: cover;
     background-position: center;
+}
+.services{
+    width: 70%;
+    display: grid;
+    grid-auto-flow: column;
+    height: 75vh;
+    row-gap: 20px;
+    column-gap: 20px;
+    text-align: center;
+    grid-template:
+        'first second third'
+        'first fourth third'
+        'fifth fifth third';
+    margin:10% auto;
+    font-size: larger;
+}
+.card_1{
+    box-shadow: 0px 0px 4px 0px;
+    grid-area: first;
+    border-radius: 15px;
+
+}
+.card_2{
+    /* border: solid; */
+    box-shadow: 0px 0px 4px 0px;
+
+    /* width: 200px;
+    height: 200px; */
+    grid-area: second;
+    border-radius: 15px;
+
+}
+.card_3{
+    /* border: solid; */
+    box-shadow: 0px 0px 4px 0px;
+
+    /* width: 200px;
+    height: 200px; */
+    grid-area: third;
+    border-radius: 15px;
+
+}
+.outer_frame{
+    height: 175px;
+    width: 100px;
+    border: solid;
+    border-radius: 15px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    width: 31px;
+    border: solid 2px;
+    position: relative;
+}
+.inner_screen{
+    height: 70%;
+    width: 100%;
+    border-top: solid;
+    border-bottom: solid;
+}
+.home_button{
+    border: solid;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: relative;
+     bottom: -5px;
+}
+.card_4{
+    /* border: solid; */
+    box-shadow: 0px 0px 4px 0px;
+
+    /* width: 200px;
+    height: 200px; */
+    grid-area: fourth;
+    border-radius: 15px;
+
+}
+.card_5{
+    /* border: solid; */
+    box-shadow: 0px 0px 4px 0px;
+
+    /* width: 200px;
+    height: 200px; */
+    grid-area: fifth;
+    border-radius: 15px;
+
+}
+.services h2{
+    margin-top: 7%;
+}
+.services p{
+    margin: 7%;
+}
+.redirect_page{
+    width: calc(100% - 120px);
+    margin:20% auto;
+    font-size: 150px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+}
+.redirect_page h1{
+    margin: 0%;
+    font-family: 'Josefin Sans', sans-serif;
 }
