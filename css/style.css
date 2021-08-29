@@ -2,7 +2,6 @@
     /* font-family: 'Baloo Chettan 2', cursive; */
     /* font-family: 'Roboto Slab', serif; */
     font-family: 'Josefin Sans', sans-serif;
-
 }
 body{
     padding: 0;
@@ -39,10 +38,10 @@ header ul{
     display: flex;
     flex-direction: row;
     margin-left: auto;
-    margin-right: 2%;
+    margin-right: 5%;
     align-items: center;
     justify-content: center;
-    column-gap: 15px;
+    column-gap: 50px;
     list-style: none;
     font-weight: bold;
 }
@@ -69,7 +68,7 @@ header ul li a{
     font-size: xxx-large;
 }
 .s11 p{
-    font-size: large;
+    font-size: 20px;
     padding-right: 10%;
 }
 .s11 a{
@@ -218,7 +217,7 @@ header ul li a{
     padding: 11px 0;
     display: inline;
     position: absolute;
-    margin-left: 6.2%;
+    margin-left: 6%;
 }
 .p1{
     /* border: solid; */
@@ -315,6 +314,7 @@ header ul li a{
 
 }
 .outer_frame{
+    margin-top: 15%;
     height: 175px;
     width: 100px;
     border: solid;
@@ -371,12 +371,31 @@ hr{
 .redirect_page{
     width: calc(100% - 120px);
     margin:20% auto;
-    font-size: 150px;
+    font-size: 200px;
     display: flex;
     flex-direction: column;
     row-gap: 70px;
 }
-.redirect_page h1{
+.redirect_page a{
     margin: 0%;
     font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    text-decoration: none;
+    display: inline;
+}
+.a1{
+    padding: 18%;
+    padding-top: 10%;
+    /* margin-top: 10%; */
+    font-size: 75px;
+    font-family: 'Space Mono', monospace;
+    line-height: 150px;
+}
+.a1 div{
+    
+    background-image: url(./images/emojipng.com-1067956.png);
+    display: inline-block;
+    width: 100px;
+    height: 62px;
+    background-size: cover;
 }
