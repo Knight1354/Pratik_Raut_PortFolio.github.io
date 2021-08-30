@@ -7,3 +7,19 @@
 .redirect_page{
     font-size: 150px;
 }
+.s2{
+    grid-template-columns: none;
+    grid-auto-flow: row;
+    height: 100vh;
+}
+.project_img{
+    height: 450px;
+    width: 100%;
+    border-radius: 0%;
+}
+.project_title{
+    margin-top: 0%;
+}
+.cont a{
+    padding: 3% 3%;
+}

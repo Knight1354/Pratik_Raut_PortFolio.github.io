@@ -20,3 +20,12 @@ header>ul{
 .header_left{
     margin-right: auto;
 }
+.cont a{
+    padding: 3% 2%;
+}
+.contact_details{
+    height: 60%;
+}
+.social_med{
+    justify-content: center;
+}
