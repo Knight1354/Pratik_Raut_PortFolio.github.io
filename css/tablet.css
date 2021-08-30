@@ -1,0 +1,19 @@
+.s1{
+    height: 100vh;
+    flex-direction: column;
+}
+.s11{
+    width: auto;
+}
+.s12
+{
+    width: auto;
+    background-size: contain;
+    /* background-position: 126px center; */
+}
+.services{
+    width: 85%;
+}
+.redirect_page{
+    font-size: 100px;
+}

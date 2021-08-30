@@ -15,6 +15,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
 <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" media="screen and (max-width: 1100px)" href="css/widescreen.css">
+<link rel="stylesheet" media="screen and (max-width: 925px)" href="css/tablet.css">
+<link rel="stylesheet" media="screen and (max-width: 770px)" href="css/tablet2.css">
+<link rel="stylesheet" media="screen and (max-width: 665px)" href="css/mobile.css">
     <title>Pratik Raut</title>
 </head>
 <body>
@@ -23,9 +27,36 @@
             <ul>
                 <li> <a href="./projects.html">WORK</a></li>
                 <li> <a href="./about.html"> ABOUT</a></li>
-                <li><a href=""> CONTACT</a></li>
+                <li><a href="./contact.html"> CONTACT</a></li>
             </ul>
+            <div class="menu" id="menu" >
+                <div class="menu_overall" onclick="ham()">
+                    <div class="menu_icon"></div>
+                    <div class="menu_icon"></div>
+                    <div class="menu_icon"></div>
+                </div>
+                <div class="menu_elements" id="menu_elements">
+                    <ul>
+                        <a href="projects.html"><li> Work</li></a>
+                        <a href="about.html"><li>About</li></a>
+                        <a href="contact.html"><li>Contact</li></a>
+                    </ul>
+                </div>
+                <script>
+                    let x=document.getElementById("menu_elements");
+                   function ham(){
+                       if(x.style.display=="block"){
+                    x.style.display="none";
+                }
+                else{
+                    x.style.display="block";
+                    
+                    }
+                }
+                </script>
+            </div>
     </header>
+    
     <aside class="contact">
         <div class="contact_icons">
             <div class="twitter"></div>
@@ -47,14 +78,13 @@
         <div class="s11">
         <h2>Hi, I'm Pratik.</h2>
         <h1>Web Designer.</h1>
-        <p>Multidisciplinary designer who hacks at, makes and occasionally breaks things.
-            Product Design Director on the team behind matrix.org.</p>
+        <p>From India, designer during daytime and help batman during freetime. Want a beautiful website to get built I am your go to person. Want to update your current design here I am.</p>
         <p>Less moody in real life. ✌️</p>
-        <a href="">Learn more   </a>
+        <a href="./about.html">Learn more   </a>
     </div>
     <div class="s12"></div>
     </section>
-    <h1 style="text-align: center;font-family: 'Josefin Sans', sans-serif;font-size: 150px;">WHAT I DO ...</h1>
+    <h1 class="whatIdo" >WHAT I DO ...</h1>
     <div class="services">
         <div class="card_1">
             <h2>Design You Will love</h2>
@@ -127,8 +157,8 @@
         <a href="./projects.html">
             <p style="font-size: xx-large;margin:0%;">useful links ↗</p>
             WORK</a>
-        <a href="" style="text-align: end;margin-top: -4%;">ABOUT</a>
-        <a href="">CONTACT</a>
+        <a href="./about.html" style="text-align: end;margin-top: -4%;">ABOUT</a>
+        <a href="./contact.html">CONTACT</a>
     </section>
 </body>
 </html>

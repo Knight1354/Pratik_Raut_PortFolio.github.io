@@ -1,0 +1,22 @@
+.contact{
+    display: none;
+}
+.s12{
+    background-size: cover;
+    background-position: none;
+}
+.services{
+    width: 95%;
+}
+header>ul{
+    display: none;
+}
+.menu{
+    display: flex;
+}
+.menu_elements{
+    display: none;
+}
+.header_left{
+    margin-right: auto;
+}

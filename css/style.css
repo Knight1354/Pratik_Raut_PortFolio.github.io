@@ -49,6 +49,56 @@ header ul li a{
     text-decoration: none;
     color: black;
 }
+
+.menu{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    /* display: none; */
+    /* width: 90px; */
+    display: none;
+    flex-direction: row;
+}
+.menu_overall{
+width: 35px;
+margin-left: auto;
+position: absolute;
+top: 10px;
+right: 20px;
+}
+.menu_icon{
+height: 5px;
+margin: 6px 0;
+margin-left: auto;
+background-color: black;
+}
+.menu_elements ul{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: flex-end;
+    list-style: none;
+    background-color: white;
+    border: 2px solid;
+    padding: 0px;
+    margin-top: 10%;
+    z-index: -1;
+}
+.menu_elements ul a{
+    margin-left: 0;
+    border: 2px solid;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    border-left: none;
+    border-bottom: none;
+}
 .s1{
     margin-top: 60px;
     height:80vh;
@@ -79,9 +129,14 @@ header ul li a{
     background-image: url(../images/rm355-ae-0009-google-mockup-removebg-preview.png);
     width: 50%;
     height: 100%;
-    background-position: -140px 60px;
+    background-position: -115px center;
     background-repeat: no-repeat;
     background-size: 100%;
+}
+.whatIdo{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 150px;  
 }
 .contact{
     height: 100vh;
@@ -189,6 +244,7 @@ header ul li a{
     margin: 0;
     height: 4px;
     background-color: black;
+
 }
 .project_title p{
     padding: 0% 15%;
@@ -217,7 +273,7 @@ header ul li a{
     padding: 11px 0;
     display: inline;
     position: absolute;
-    margin-left: 6%;
+    margin-left: 90px;
 }
 .p1{
     /* border: solid; */
@@ -244,6 +300,7 @@ header ul li a{
     display: inline-block;
     margin: 0%;
     /* margin-bottom: 30px; */
+    z-index: -1;
 }
 .project_no h1{
     display: inline;
@@ -371,6 +428,7 @@ hr{
 .redirect_page{
     width: calc(100% - 120px);
     margin:20% auto;
+    margin:5%;
     font-size: 200px;
     display: flex;
     flex-direction: column;
@@ -391,11 +449,72 @@ hr{
     font-family: 'Space Mono', monospace;
     line-height: 150px;
 }
-.a1 div{
+.a1 div,.s11 div{
     
     background-image: url(./images/emojipng.com-1067956.png);
     display: inline-block;
     width: 100px;
     height: 62px;
     background-size: cover;
+}
+.c1{
+    width: 100vw;
+    height: calc(100vh - 69px);
+    /* border: solid; */
+    margin-top: 69px;
+    display: flex;
+    flex-direction: row;
+}
+.c11{
+    height: 100%;
+    width: 50%;
+}
+.c12{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+}.contact_details{
+    width: 110%;
+    height: 50%;
+    /* border: solid; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 30%;
+    top: 10%;
+    column-gap: 6%;
+}
+.cont{
+    width: 47%;
+    height: 100%;
+    border: solid;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    row-gap: 10px;
+}
+.cont a{
+    display: inline;
+    width: 100px;
+    border: solid;
+    text-decoration: none;
+    color: black;
+    padding: 3% 7%;
+    margin: 4.4%;
+}
+.email{
+    width: 47%;
+    height: 100%;
+    border: solid ;
+    background-color: white;
+}
+.social_med{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }

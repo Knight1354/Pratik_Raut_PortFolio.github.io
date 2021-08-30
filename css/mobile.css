@@ -1,0 +1,20 @@
+.services{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.outer_screen{
+    margin-top: 0%;
+}
+.card_1{
+    padding-bottom: 5%;
+}
+.card_3{
+    padding-bottom: 5%;
+}
+.whatIdo{
+    font-size: 75px;
+}
+.redirect_page{
+    font-size: 50px;
+}
