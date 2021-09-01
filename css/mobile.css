@@ -34,3 +34,16 @@
     padding-top: 10%;
     font-size: 60px;
 }
+.contact_details{
+    flex-direction: column;
+}
+.cont{
+    width: 100%;
+    height: auto;
+}
+.c12{
+    display: none;
+}
+.cont a{
+    padding: 3% 0%;
+}
